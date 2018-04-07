@@ -1,0 +1,38 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/rl_start"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/nen"
+   
+    android:orientation="vertical"
+   
+    tools:context="com.example.androidgame2d.Start" >
+
+    <ImageView
+        android:id="@+id/Btn_thoat"
+        android:layout_width="160dp"
+        android:layout_height="160dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:src="@drawable/thoat" />
+
+    <ImageView
+        android:id="@+id/Btn_thongtin"
+        android:layout_width="160dp"
+        android:layout_height="160dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:src="@drawable/thongtin" />
+
+    <ImageView
+        android:id="@+id/Btn_choi"
+        android:layout_width="160dp"
+        android:layout_height="160dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/gamemoi" />
+
+    
+
+</RelativeLayout>

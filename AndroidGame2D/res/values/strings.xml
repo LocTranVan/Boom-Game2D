@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">AndroidGame2D</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_start">Start</string>
+    <string name="title_activity_huongdan">Huongdan</string>
+    <string name="thua">Sorry! You Lose</string>
+    <string name="Buy">Buy</string>
+    <string name="tieptuc">CONTINUE</string>
+    <string name = "Back">BACK</string>
+    <string name="menuchinh">MAIN MENU</string>
+    <string name="thoat">EXIT</string>
+	<string name ="gioithieu">Game Được làm bởi Trần Văn Lộc.Hình ảnh trong Game và ý tưởng chơi được lấy từ Game Bom của Đặng Văn Giỏi :v</string>
+    <color name="white">#FFFFFF</color>
+    <color name="Red">#B22222</color>
+	 <color name="Black">#000000</color>
+    <string name="title_activity_game_over">GameOver</string>
+    <string name="title_activity_thong_tin">ThongTin</string>
+
+</resources>

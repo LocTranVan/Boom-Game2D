@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.androidgame2d"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="21" />
+
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/icon_bom"
+        android:label="@string/app_name"
+        android:screenOrientation="landscape"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".Start"
+            android:configChanges="orientation|keyboardHidden"
+              android:screenOrientation="landscape"
+            android:label="@string/app_name"
+             >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/title_activity_start"
+            android:screenOrientation="landscape" >
+        </activity>
+        <activity
+            android:name=".Huongdan"
+            android:label="@string/title_activity_huongdan"
+            android:screenOrientation="landscape" >
+        </activity>
+        <activity
+            android:name=".GameOver"
+            android:screenOrientation="landscape" >
+        </activity>
+        <activity
+            android:name=".ThongTin"
+            android:label="@string/title_activity_thong_tin"
+            android:screenOrientation="landscape" >
+        </activity>
+        <activity
+            android:name=".Shop"
+            android:screenOrientation="landscape" >
+        </activity>
+    </application>
+
+</manifest>
